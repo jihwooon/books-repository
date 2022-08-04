@@ -1,0 +1,11 @@
+{
+  "name": "week-2",
+  "version": "1.0.0",
+  "description": "<details> <summary>2주차를 통해 무엇을 배울 수 있을까요?</summary>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
