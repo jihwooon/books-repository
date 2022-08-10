@@ -7,7 +7,8 @@
 
 <details>
 <summary>시간 복잡도와 공간 복잡도의 차이는 무엇인가요?</summary>
-* 시간 복잡도는 알고리즘이 얼마나 빠른가에 초점을 두었다면 공간 복잡도는 알고리즘이 얼마나 메모리는 소모하는가 입니다.
+
+>시간 복잡도는 알고리즘이 얼마나 빠른가에 초점을 두었다면 공간 복잡도는 알고리즘이 얼마나 메모리는 소모하는가 입니다.
 이 둘 차이점은 빠르기와 메모리 차이점입니다. 
 </details>
 
@@ -26,5 +27,16 @@ function maksUpperCase(array) {
 ```
 
 * 새로 배열 생성한 부분을 빼고 array로 바로 반환합니다.
+
+```javascript
+function maksUpperCase(array) {
+  for(let i = 0; i < array.length; i++) {
+    array = array[i].toUpperCase();
+  }
+
+  return array;
+}
+```
+
 </details>
 
